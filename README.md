@@ -95,10 +95,15 @@ npm ci
 npx playwright install chromium
 ```
 
-### 4. Run Development Server
-```bash
-npm run dev
-```
+### 4. Run Development Server (Frontend + Backend)
+- **Windows (1-Click Launcher)**: Double-click or run:
+  ```cmd
+  run_app.bat
+  ```
+- **Manual CLI**:
+  ```bash
+  npm run dev
+  ```
 Visit **`http://localhost:3000`** in your browser.
 
 ### 5. Quality & Test Commands
