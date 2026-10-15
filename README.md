@@ -82,12 +82,12 @@ Validates booking conflict rejection, cancellation preservation, waitlist matchi
 ## 🚀 Running Locally
 
 ### 1. Prerequisites
-- Node.js 18+ (tested on Node v20/v24)
-- npm 9+
+- Node.js 22+ (Standardized on Node.js 24.x; Supabase dependencies require Node >=22.0.0)
+- npm 10+ (tested on npm 11.6.2)
 
 ### 2. Installation
 ```bash
-npm install
+npm ci
 ```
 
 ### 3. Install Playwright Browsers
